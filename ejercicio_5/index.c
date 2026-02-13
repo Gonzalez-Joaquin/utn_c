@@ -11,7 +11,7 @@ int main(){
   printf("Ingrese el radio de un circulo: ");
   scanf("%f", &radio);
 
-  printf("El area es: %f\n", areaCirculo(radio));
+  printf("El area es: %.2f\n", areaCirculo(radio));
   
   return 0;
 }
